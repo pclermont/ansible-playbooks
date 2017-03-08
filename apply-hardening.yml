@@ -1,0 +1,4 @@
+- name: Launch hardening on all hosts
+  hosts: all
+  roles:
+    - BN-LinuxHardening
