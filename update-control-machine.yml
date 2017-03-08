@@ -1,0 +1,4 @@
+- name: Update local control machine ansible-control-machine
+  hosts: control-machine
+  roles:
+    - ansible-control-machine
